@@ -12,7 +12,9 @@ Mess with the gate and see what heppends. :)
 ## plan
 ### gate
 ![alt text](https://github.com/VojislavM/door_opener/blob/master/pics/motor_kapija.jpg)
-Gate is pretty standard, but unfortunately, I did not see any company logo on it. Never the less most of the gates use some standard frequencies for opening them with small remotes. These remotes usually do not have some fancy safety features like frequency hopping and they are just sending the modulated bitstream into the air. If the gate receiver received the correct signal it opens the gate. Simple as that. 
+Gate is pretty standard, but unfortunately, I did not see any company logo on it. Never the less most of the gates use some standard frequencies for opening them with small remotes. These remotes usually do not have some fancy safety features like frequency hopping and rolling codes and they are just sending the modulated bitstream into the air. If the gate receiver received the correct signal it opens the gate. Simple as that. 
+
+Frequencies that are usualy used in the remotes are 315MHz and 433MHz 
 
 ### idea 
 Because this gate is used just a few times a day, I will need to record and catch that signal. To do that I can use and SDR device like [RTL 820T2 SDR Dongle](http://www.hamgoodies.co.uk/rtl-sdr-dongle) and RaspberryPi as an SDR server and collect all the data. 
