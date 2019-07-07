@@ -11,7 +11,7 @@ Mess with the gate and see what heppends. :)
 
 ## plan
 ### gate
-
+![alt text](https://github.com/VojislavM/door_opener/blob/master/pics/motor_kapija.jpg)
 Gate is pretty standard, but unfortunately, I did not see any company logo on it. Never the less most of the gates use some standard frequencies for opening them with small remotes. These remotes usually do not have some fancy safety features like frequency hopping and they are just sending the modulated bitstream into the air. If the gate receiver received the correct signal it opens the gate. Simple as that. 
 
 ### idea 
